@@ -1,0 +1,42 @@
+{
+	"name": "Brick Hill Trade",
+	"version": "1.0.0.0",
+	"description": "",
+	"manifest_version": 2,
+
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.brick-hill.com/user/*"
+			],
+
+			"js": [
+				"src/profiles.js"
+			]
+		},
+		{
+			"matches": [
+				"https://www.brick-hill.com/shop/*"
+			],
+
+			"js": [
+				"src/items.js"
+			]
+		},
+		{
+			"matches": [
+				"https://www.brick-hill.com/trades"
+			],
+
+			"js": [
+				"src/trades.js"
+			]
+		}
+	],
+
+	"icons": {},
+	"permissions": [
+		"https://*.brick-hill.com/*",
+		"https://brick-hill.trade/api/extension/*"
+	]
+}
