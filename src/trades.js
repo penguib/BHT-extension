@@ -43,12 +43,7 @@ const tradeArea = new MutationObserver(async (_, ob) => {
                 const itemJSON = await itemData.json()
                 const value = itemJSON.item.value;
                 cachedValues[id] = value;
-                (trade == 0) ? givingValue += value : gettingValue += value
-                if (trade == 0) {
-                    givingValue += value
-                } else {
-                    gettingValue += value
-                }
+                (trade == 0) ? givingValue += value : gettingValue += value;
             } catch(err) {
                 console.error(err)
             }
