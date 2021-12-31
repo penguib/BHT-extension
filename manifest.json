@@ -34,7 +34,11 @@
 		}
 	],
 
-	"icons": {},
+	"icons": {
+		"16": "icons/BHT_16.png",
+		"48": "icons/BHT_48.png",
+		"128": "icons/BHT_128.png"
+	},
 	"permissions": [
 		"https://*.brick-hill.com/*",
 		"https://brick-hill.trade/api/extension/*"
