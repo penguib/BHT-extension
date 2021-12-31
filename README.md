@@ -5,7 +5,6 @@
 This extension creates a bridge between the Brick Hill Trade and Brick Hill. It gives users a few extra features to see item, user, and trade info on the site.
 
 ## Features
-Currently there are 3 features:
 - User info on profiles
-- Item info on item pages in the shop
+- Item info on shop pages
 - Trade info on the trades tab
